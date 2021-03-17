@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Kewin'sweb</title>
+</head>
+
+<body>
+    {{>navbar}}
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 hero-text order-md-0 order-1">
+                        <h1>WE WILL HELP YOU TO</h1>
+                        <H1>GROW YOUR BUSINESS</H1>
+                        <P>We are The <span class="bold-style"> Professional Developer</span></P>
+                        <button class="btn-style btn-primary">Read More</button>
+                    </div>
+                    {{!-- right side --}}
+                    <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                        <figure>
+                            <img src="images/growth.svg" alt="image">
+                        </figure>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    {{!-- aboutus page --}}
+    {{>about}}
+
+    {{!-- service page --}}
+    {{>service}}
+    {{!-- map --}}
+    {{>map}}
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+    {{!-- contact --}}
+    {{>contact}}
+</body>
+
+</html>
