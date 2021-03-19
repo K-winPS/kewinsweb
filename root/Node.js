@@ -1,5 +1,8 @@
 const express = require("express");
 const path = require("path");
+var favicon = require('serve-favicon')
+
+
 
 require("./db/conn")
 const User = require("./models/usermsg")
@@ -9,7 +12,7 @@ const { registerPartials } = require("hbs");
 
 const app = express();
 const port = process.env.PORT || 4000;
-
+app.use(favicon(path.join(__dirname, '../public', 'images/favicon.ico')))
 
 
 const staticpath = path.join(__dirname, "../public")
