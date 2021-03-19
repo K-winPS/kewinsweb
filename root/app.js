@@ -6,7 +6,7 @@ const User = require("./models/usermsg")
 
 const hbs = require("hbs");
 const { registerPartials } = require("hbs");
-
+ 
 const app = express();
 const port = process.env.PORT || 4000;
 
