@@ -1,23 +1,5 @@
-<div class="container-fluid mt-5 about-style" id="contactid">
-    <div class="row">
-        <div class="col-md10 col-12 mx-auto">
-            <h1 class="text-center main-heading">Contact Us</h1>
-            <p class="text-center sub-heading">Grow Your Business with us</p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-12 mx-auto">
-                        <form action="/contact" method="POST">
-
-
-                            <h3>Name &nbsp &nbsp &nbsp <input type="text" id="name" name="name"
-                                    placeholder="Name   "><br><br>
-                                E-mail &nbsp &nbsp &nbsp <input type="text" id="email" name="email"
-                                    placeholder="Email      "><br><br>
-                                Phone &nbsp &nbsp &nbsp <input id="phone" name="phone" placeholder="9876543210"><br><br>
-                                Description <textarea rows="3" id="description" name="description"
-                                    placeholder="Description"></textarea><br><br></h3>
-                            <button type="submit" style="
-            
+<head>
+<style>
       button {
         display: inline-block;
         background-color: #7b38d8;
@@ -56,7 +38,27 @@
         opacity: 1;
         right: 0;
       }
-      ">Submit</button>
+    </style>
+</head>
+<div class="container-fluid mt-5 about-style" id="contactid">
+    <div class="row">
+        <div class="col-md10 col-12 mx-auto">
+            <h1 class="text-center main-heading">Contact Us</h1>
+            <p class="text-center sub-heading">Grow Your Business with us</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12 mx-auto">
+                        <form action="/contact" method="POST">
+
+
+                            <h3>Name &nbsp &nbsp &nbsp <input type="text" id="name" name="name"
+                                    placeholder="Name   "><br><br>
+                                E-mail &nbsp &nbsp &nbsp <input type="text" id="email" name="email"
+                                    placeholder="Email      "><br><br>
+                                Phone &nbsp &nbsp &nbsp <input id="phone" name="phone" placeholder="9876543210"><br><br>
+                                Description <textarea rows="3" id="description" name="description"
+                                    placeholder="Description"></textarea><br><br></h3>
+                            <button type="submit" class="button">Submit</button>
 
                         </form>
                     </div>
